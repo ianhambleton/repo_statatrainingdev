@@ -25,7 +25,7 @@ cap log using "`logpath'\week01_examplecode", replace
 ** HEADER -----------------------------------------------------
 
 
-/*
+
 
 ** ************************************************************
 ** EXAMPLE DATASET 1
@@ -175,7 +175,7 @@ tabstat avt mint maxt , by(tweek) stat(mean) format(%9.1f)
 
 
 
-*/
+
 
 ** ************************************************************
 ** EXAMPLE DATASET 2
