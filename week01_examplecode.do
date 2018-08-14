@@ -3,7 +3,7 @@
 //  algorithm name			week01_examplecode.do
 //  project:				Exercise using Collapse and Reshape
 //  analysts:				Ian HAMBLETON
-//	date last modified		13-Aug-2018
+//	date last modified		15-Aug-2018
 //  algorithm task			Example code for the exercise
 
 ** General algorithm set-up
@@ -195,12 +195,18 @@ tempfile asthma01 asthma02 asthma03 asthma04 asthma05 asthma06
 preserve
     collapse (sum) pa (mean) ydust=dust, by(yoa)
     save `asthma01', replace
+    char yoa[varname] "Year"
+    char pa[varname] "Paediatric admission"
+    char ydust[varname] "African dust"
+    format ydust %9.1f
+    list yoa pa ydust, table div sep(5) noobs subvarname linesize(80) ab(20) mean(ydust) sum(pa)
 restore
 
 ** (B) Number of annual paediatric events BY SEX, AND rainfall/dust summaries
 **  Method 1
 preserve
     collapse (sum) pam paf rain (mean) ydust=dust, by(yoa)
+    list yoa pam paf rain ydust, table div sep(5) noobs subvarname linesize(80) ab(20)
     ** Wide format dataset
     save `asthma02', replace
     ** Long format dataset
@@ -208,6 +214,7 @@ preserve
     reshape long pa, i(yoa rain ydust) j(sex)
     label define sex_ 1 "men" 2 "women"
     label values sex sex_
+    list yoa sex pa rain ydust, table div sep(2) noobs subvarname linesize(80) ab(20)
     save `asthma03', replace
 restore
 
