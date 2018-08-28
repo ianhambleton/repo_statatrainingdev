@@ -22,6 +22,7 @@ ___
 **DATASET 1** Barbados daily meteorology data in long format (2000 - 2013)  
 We have daily environmental conditions for Barbados (from Grantley Adams International Airport)  
 **The variables are**  
+
 |Variable description|Variable name|
 |---|---|
 |Average Temperature |`measure = 1`|
@@ -36,44 +37,46 @@ We have daily environmental conditions for Barbados (from Grantley Adams Interna
 |Date of meteorological measurement|`dov`|  
 ___
 
-**DATASET 2** Asthma admissions to QEH and environmental conditions<br/>
-We have a dataset of paediatric and adult admissions to Queen Elizabeth Hospital in Barbados<br/>
-Along with daily measures of various environmental conditions<br/>
-** -------------------------------------------------------------------------------------<br/>
-** The variables are:
-** doa       Date of asthma admission
-** dow       Day of asthma admission
-** woa       Week of asthma admission
-** moa       Month of asthma admission
-** yoa       Year of asthma admission
-** pa        paediatric asthma
-** pam       paediatric asthma: boys
-** paf       paediatric asthma: girls
-** pa1       paediatric asthma: <1 yrs
-** pa5       paediatric asthma: 1 - <5 yrs
-** pa10      paediatric asthma: 5 - <10 yrs
-** pa15      paediatric asthma: 10 - <15 yrs
-** pa18      paediatric asthma: 15 - <18 yrs
-** aa        adult asthma
-** pam1      paediatric asthma boys: <1 yrs
-** pam5      paediatric asthma boys: 1 - <5 yrs
-** pam10     paediatric asthma boys: 5 - <10 yrs
-** pam15     paediatric asthma boys: 10 - <15 yrs
-** pam18     paediatric asthma boys: 15 - <18 yrs
-** paf1      paediatric asthma girls: <1 yrs
-** paf5      paediatric asthma girls: 1 - <5 yrs
-** paf10     paediatric asthma girls: 5 - <10 yrs
-** paf15     paediatric asthma girls: 10 - <15 yrs
-** paf18     paediatric asthma girls: 15 - <18 yrs
-** gpollen   Grass pollen
-** spores    Spores
-** tmax      Max daily temperature (celcius)
-** tmin      Min daily temperature (celcius)
-** rain      Daily rainfall (mm)
-** rhmax     Max relative humidity (%)
-** rhmin     Min relative humidity (%)
-** dust      African dust (micrograms / cubic metre)
-** bacteria  Bacteria (count / cubic metre)
-** fungi     Fungi (count / cubic metre)
-** tpollen   Tree pollen
-** -------------------------------------------------------------------------------------
+**DATASET 2** Asthma admissions to QEH and environmental conditions  
+We have a dataset of paediatric and adult admissions to Queen Elizabeth Hospital in Barbados  
+Along with daily measures of various environmental conditions  
+**The variables are**
+
+|Variable description|Variable name|
+|---|---|
+|Date of asthma admission|`doa`|
+|Day of asthma admission|`dow`|
+|Week of asthma admission|`woa`|
+|Month of asthma admission|`moa`|
+|Year of asthma admission|`yoa`|
+|paediatric asthma|`pa`|
+|paediatric asthma: boys|`pam`|
+|paediatric asthma: girls|`paf`|
+|paediatric asthma: <1 yrs|`pa1`|
+|paediatric asthma: 1 - <5 yrs|`pa5`|
+|paediatric asthma: 5 - <10 yrs|`pa10`|
+|paediatric asthma: 10 - <15 yrs|`pa15`|
+|paediatric asthma: 15 - <18 yrs|`pa18`|
+|adult asthma|`aa`|
+|paediatric asthma boys: <1 yrs|`pam1`|
+|paediatric asthma boys: 1 - <5 yrs|`pam5`|
+|paediatric asthma boys: 5 - <10 yrs|`pam10`|
+|paediatric asthma boys: 10 - <15 yrs|`pam15`|
+|paediatric asthma boys: 15 - <18 yrs|`pam18`|
+|paediatric asthma girls: <1 yrs|`paf1`|
+|paediatric asthma girls: 1 - <5 yrs|`paf5`|
+|paediatric asthma girls: 5 - <10 yrs|`paf10`|
+|paediatric asthma girls: 10 - <15 yrs|`paf15`|
+|paediatric asthma girls: 15 - <18 yrs|`paf18`|
+|Grass pollen|`gpollen`|
+|Spores|`spores`|
+|Max daily temperature (celcius)|`tmax`|
+|Min daily temperature (celcius)|`tmin`|
+|Daily rainfall (mm)|`rain`|
+|Max relative humidity (%)|`rhmax`|
+|Min relative humidity (%)|`rhmin`|
+|African dust (micrograms / cubic metre)|`dust`|
+|Bacteria (count / cubic metre)|`bacteria`|
+|Fungi (count / cubic metre)|`fungi`|
+|Tree pollen|`tpollen`|
+___
