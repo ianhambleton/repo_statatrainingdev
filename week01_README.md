@@ -2,9 +2,11 @@
 ### In-House Stata Training. Development repository
 
 #### WEEK 1 (COLLAPSE and RESHAPE)
+You will find all datasets in the dataset repository `data_statatraining`  
+
 ##### INSTRUCTIONS
 
-1. Using DATASET 1, do the following:<br/>
+1. Using *DATASET 1*, do the following:<br/>
   - Produce a summary tabulate and summary graph of rainfall totals between 2000 and 2013,
       summarizing the time into quarter-years (2000q1, 2000q2, and so on)
   - Produce a summary tabulate and summary graph of rainfall totals between 2000 and 2013,
@@ -12,14 +14,15 @@
   - Produce a summary tabulate and summary graph of rainfall totals between 2000 and 2013,
       summarizing the time into week-years (2000w1, 2000w2, and so on)
 
-2. Using DATASET 2, do the following:<br/>
+2. Using *DATASET 2*, do the following:<br/>
   - Tabulate the number of annual paediatric events along with an annual summary of dust levels
   - tabulate the number of annual paediatric events BY SEX, along with an annual summary of
       dust and rainfall
   - Graph the variation in admissions across the week (Sunday to Saturday)
 
 ___  
-**DATASET 1** Barbados daily meteorology data in long format (2000 - 2013)  
+**DATASET 1** Filename:`dataset01_meteorology.dta`  
+Barbados daily meteorology data in long format (2000 - 2013)  
 We have daily environmental conditions for Barbados (from Grantley Adams International Airport)  
 **The variables are**  
 
@@ -37,7 +40,8 @@ We have daily environmental conditions for Barbados (from Grantley Adams Interna
 |Date of meteorological measurement|`dov`|  
 ___
 
-**DATASET 2** Asthma admissions to QEH and environmental conditions  
+**DATASET 2**  Filename:`dataset02_asthma.dta`  
+Asthma admissions to QEH and environmental conditions  
 We have a dataset of paediatric and adult admissions to Queen Elizabeth Hospital in Barbados  
 Along with daily measures of various environmental conditions  
 **The variables are**
