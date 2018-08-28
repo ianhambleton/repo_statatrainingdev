@@ -1,8 +1,8 @@
 # repo_statatrainingdev
-In-House Stata Training. Development repository.
+<h1>In-House Stata Training. Development repository</h1>
 
-WEEK 1 (COLLAPSE and RESHAPE)<br/>
-INSTRUCTIONS<br/>
+<h2>WEEK 1 (COLLAPSE and RESHAPE)</h2>
+<h2>INSTRUCTIONS</h2>
 
 1. Using DATASET 1, do the following:<br/>
   A.  Produce a summary tabulate and summary graph of rainfall totals between 2000 and 2013,
