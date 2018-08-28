@@ -1,44 +1,42 @@
-# repo_statatrainingdev
-<h1>In-House Stata Training. Development repository</h1>
+## repo_statatrainingdev
+### In-House Stata Training. Development repository
 
-<h2>WEEK 1 (COLLAPSE and RESHAPE)</h2>
-<h2>INSTRUCTIONS</h2>
+#### WEEK 1 (COLLAPSE and RESHAPE)
+##### INSTRUCTIONS
 
 1. Using DATASET 1, do the following:<br/>
-  A.  Produce a summary tabulate and summary graph of rainfall totals between 2000 and 2013,
-      summarizing the time into quarter-years (2000q1, 2000q2, and so on)<br/>
-  B.  Produce a summary tabulate and summary graph of rainfall totals between 2000 and 2013,
-      summarizing the time into month-years (2000m1, 2000m2, and so on)<br/>
-  B.  Produce a summary tabulate and summary graph of rainfall totals between 2000 and 2013,
-      summarizing the time into week-years (2000w1, 2000w2, and so on)<br/>
+  - Produce a summary tabulate and summary graph of rainfall totals between 2000 and 2013,
+      summarizing the time into quarter-years (2000q1, 2000q2, and so on)
+  - Produce a summary tabulate and summary graph of rainfall totals between 2000 and 2013,
+      summarizing the time into month-years (2000m1, 2000m2, and so on)
+  - Produce a summary tabulate and summary graph of rainfall totals between 2000 and 2013,
+      summarizing the time into week-years (2000w1, 2000w2, and so on)
 
 2. Using DATASET 2, do the following:<br/>
-  A.  Tabulate the number of annual paediatric events along with an annual summary of dust levels<br/>
-  B.  tabulate the number of annual paediatric events BY SEX, along with an annual summary of
-      dust and rainfall<br/>
-  C.  Graph the variation in admissions across the week (Sunday to Saturday)<br/>
+  - Tabulate the number of annual paediatric events along with an annual summary of dust levels
+  - tabulate the number of annual paediatric events BY SEX, along with an annual summary of
+      dust and rainfall
+  - Graph the variation in admissions across the week (Sunday to Saturday)
 
 
-
-DATASET 1. Barbados daily meteorology data in long format (2000 - 2013)<br/>
-We have daily environmental conditions for Barbados (from Grantley Adams International Airport)<br/>
-** -------------------------------------------------------------------------------------<br/>
-** The variables are:<br/>
-**  Average Temperature     measure = 1<br/>
-**  Maximum temperature     measure = 2<br/>
-**  Minimum temperature     measure = 3<br/>
-**  Relative humidity       measure = 4<br/>
-**  Rainfall                measure = 5<br/>
-**  yom                     Year of measurement (2000 - 2013)<br/>
-**  mom                     Month of measurement (1-12)<br/>
-**  dom                     Day of month of measurement (days running from 1 to max 31)<br/>
-**  value                   Value of meteorological measurement<br/>
-**  dov                     Date of meteorological measurement<br/>
-** -------------------------------------------------------------------------------------<br/>
-
+**DATASET 1** Barbados daily meteorology data in long format (2000 - 2013)  
+We have daily environmental conditions for Barbados (from Grantley Adams International Airport)  
+___
+**The variables are**  
+Average Temperature   `measure = 1`
+Maximum temperature     measure = 2<br/>
+Minimum temperature     measure = 3<br/>
+Relative humidity       measure = 4<br/>
+Rainfall                measure = 5<br/>
+yom                     Year of measurement (2000 - 2013)<br/>
+mom                     Month of measurement (1-12)<br/>
+dom                     Day of month of measurement (days running from 1 to max 31)<br/>
+value                   Value of meteorological measurement<br/>
+dov                     Date of meteorological measurement<br/>
+** -------------------------------------------------------------------------------------  
 
 
-DATASET 2. Asthma admissions to QEH and environmental conditions<br/>
+**DATASET 2** Asthma admissions to QEH and environmental conditions<br/>
 We have a dataset of paediatric and adult admissions to Queen Elizabeth Hospital in Barbados<br/>
 Along with daily measures of various environmental conditions<br/>
 ** -------------------------------------------------------------------------------------<br/>
