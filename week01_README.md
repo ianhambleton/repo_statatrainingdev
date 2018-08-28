@@ -22,16 +22,18 @@ ___
 **DATASET 1** Barbados daily meteorology data in long format (2000 - 2013)  
 We have daily environmental conditions for Barbados (from Grantley Adams International Airport)  
 **The variables are**  
-|Average Temperature|`measure = 1`|
-|Maximum temperature|   `measure = 2`|
-|Minimum temperature|   `measure = 3`|
-|Relative humidity|     `measure = 4`|
-|Rainfall|              `measure = 5`|
-|Year of measurement (2000 - 2013)|  `yom`|
-|Month of measurement (1-12)|  `mon`|
-|Day of month of measurement (1 to max 31)| `dom`|
-|Value of meteorological measurement|  `value`|
-|Date of meteorological measurement| `dov`|  
+|Variable description|Variable name|
+|--------------------|-------------|
+|Average Temperature |`measure = 1`|
+|Maximum temperature |`measure = 2`|
+|Minimum temperature |`measure = 3`|
+|Relative humidity   |`measure = 4`|
+|Rainfall            |`measure = 5`|
+|Year of measurement (2000 - 2013)|`yom`|
+|Month of measurement (1-12)|`mon`|
+|Day of month of measurement (1 to max 31)|`dom`|
+|Value of meteorological measurement|`value`|
+|Date of meteorological measurement|`dov`|  
 ___
 
 **DATASET 2** Asthma admissions to QEH and environmental conditions<br/>
