@@ -23,7 +23,7 @@ ___
 We have daily environmental conditions for Barbados (from Grantley Adams International Airport)  
 **The variables are**  
 |Variable description|Variable name|
-|--------------------|-------------|
+|---|---|
 |Average Temperature |`measure = 1`|
 |Maximum temperature |`measure = 2`|
 |Minimum temperature |`measure = 3`|
