@@ -18,23 +18,21 @@
       dust and rainfall
   - Graph the variation in admissions across the week (Sunday to Saturday)
 
-
+___  
 **DATASET 1** Barbados daily meteorology data in long format (2000 - 2013)  
 We have daily environmental conditions for Barbados (from Grantley Adams International Airport)  
-___
 **The variables are**  
-Average Temperature   `measure = 1`
-Maximum temperature     measure = 2<br/>
-Minimum temperature     measure = 3<br/>
-Relative humidity       measure = 4<br/>
-Rainfall                measure = 5<br/>
-yom                     Year of measurement (2000 - 2013)<br/>
-mom                     Month of measurement (1-12)<br/>
-dom                     Day of month of measurement (days running from 1 to max 31)<br/>
-value                   Value of meteorological measurement<br/>
-dov                     Date of meteorological measurement<br/>
-** -------------------------------------------------------------------------------------  
-
+|Average Temperature|`measure = 1`|
+|Maximum temperature|   `measure = 2`|
+|Minimum temperature|   `measure = 3`|
+|Relative humidity|     `measure = 4`|
+|Rainfall|              `measure = 5`|
+|Year of measurement (2000 - 2013)|  `yom`|
+|Month of measurement (1-12)|  `mon`|
+|Day of month of measurement (1 to max 31)| `dom`|
+|Value of meteorological measurement|  `value`|
+|Date of meteorological measurement| `dov`|  
+___
 
 **DATASET 2** Asthma admissions to QEH and environmental conditions<br/>
 We have a dataset of paediatric and adult admissions to Queen Elizabeth Hospital in Barbados<br/>
