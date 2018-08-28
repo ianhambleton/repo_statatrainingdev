@@ -22,9 +22,9 @@ INSTRUCTIONS
 
 DATASET 1. Barbados daily meteorology data in long format (2000 - 2013)
 We have daily environmental conditions for Barbados (from Grantley Adams International Airport)
-** -------------------------------------------------------------------------------------
-** The variables are:
-**  Average Temperature     measure = 1
+** -------------------------------------------------------------------------------------\
+** The variables are:\
+**  Average Temperature     measure = 1\
 **  Maximum temperature     measure = 2
 **  Minimum temperature     measure = 3
 **  Relative humidity       measure = 4
