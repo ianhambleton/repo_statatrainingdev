@@ -40,7 +40,7 @@ cap log using "`logpath'\week01_dataprep01", replace
 **  value                   Value of meteorological measurement
 **  dov                     Date of meteorological measurement
 ** -------------------------------------------------------------------------------------
-use "`datapath'\meteorology_barbados_001", clear
+use "`datapath'\working\meteorology_barbados_001", clear
 drop yom mom dom
 label data "Barbados daily meteorology data long format: 2000 - 2013"
 save "`datapath'\dataset01_meteorology", replace
@@ -88,7 +88,7 @@ save "`datapath'\dataset01_meteorology", replace
 ** fungi     Fungi (count / cubic metre)
 ** tpollen   Tree pollen
 ** -----------------------------------------------------------
-use "`datapath'\barbados_asthma01", clear
+use "`datapath'\working\barbados_asthma01", clear
 ** Drop variables we don't really need for this Exercise
 drop woa
 gen woa = week(doa)
