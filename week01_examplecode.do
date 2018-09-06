@@ -46,7 +46,7 @@ label var maxt "Maximum daily temperature (Celcius)"
 label var mint "Minumum daily temperature (Celcius)"
 label var rain "Daily rainfall (mm)"
 sort dov
-** Save variable labels for re-attaching after collapse commands
+** USEFUL EXTRA. Save variable labels for re-attaching after collapse commands
 foreach v of var * {
     local l`v' : variable label `v'
         if `"`l`v''"' == "" {
@@ -116,7 +116,7 @@ restore
 
 ** Tabulate and graph quarterly temperatures (minimally formatted graphic)
 use `met04', clear
-tabstat avt mint maxt , by(tquarter) stat(mean) format(%9.1f)
+qui tabstat avt mint maxt , by(tquarter) stat(mean) format(%9.1f)
 #delimit ;
     gr twoway   (line  avt mint maxt tquarter,  lp("l" "-") lc(gs0 gs10 red%50))
                 ,
@@ -136,7 +136,7 @@ tabstat avt mint maxt , by(tquarter) stat(mean) format(%9.1f)
 
 ** Tabulate and graph monthly temperatures (minimally formatted graphic)
 use `met03', clear
-tabstat avt mint maxt , by(tmonth) stat(mean) format(%9.1f)
+qui tabstat avt mint maxt , by(tmonth) stat(mean) format(%9.1f)
 #delimit ;
     gr twoway   (line  avt mint maxt tmonth,  lp("l" "-") lc(gs0 gs10 red%50))
                 ,
@@ -156,7 +156,7 @@ tabstat avt mint maxt , by(tmonth) stat(mean) format(%9.1f)
 
 ** Tabulate and graph weekly temperatures (minimally formatted graphic)
 use `met02', clear
-tabstat avt mint maxt , by(tweek) stat(mean) format(%9.1f)
+qui tabstat avt mint maxt , by(tweek) stat(mean) format(%9.1f)
 #delimit ;
     gr twoway   (line  avt mint maxt tweek,  lp("l" "-") lc(gs0 gs10 red%50))
                 ,
@@ -252,6 +252,6 @@ drop weekav1 k
                 legend(position(11) order(2 1) cols(1)
                 lab(2 "Average admissions")
                 lab(1 "95% CI"))
-                name(temperature_week)
+                name(admission)
                 ;
 #delimit cr
