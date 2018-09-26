@@ -64,7 +64,7 @@ forval city = 1(1)7 {
 }
 postclose `sexdiff2'
 use "`datapath'\dataset06_post_irh2.dta", clear
-/*
+
 ** Inequality (difference)
 bysort var: egen cmax = max(chi2)
 bysort var: egen cmin = min(chi2)

@@ -26,6 +26,7 @@ cap log using "`logpath'\week01_examplecode", replace
 
 
 
+/*
 
 ** ************************************************************
 ** EXAMPLE DATASET 1
@@ -116,7 +117,7 @@ restore
 
 ** Tabulate and graph quarterly temperatures (minimally formatted graphic)
 use `met04', clear
-qui tabstat avt mint maxt , by(tquarter) stat(mean) format(%9.1f)
+ tabstat avt mint maxt , by(tquarter) stat(mean) format(%9.1f)
 #delimit ;
     gr twoway   (line  avt mint maxt tquarter,  lp("l" "-") lc(gs0 gs10 red%50))
                 ,
@@ -174,7 +175,7 @@ qui tabstat avt mint maxt , by(tweek) stat(mean) format(%9.1f)
 #delimit cr
 
 
-
+*/
 
 
 ** ************************************************************
